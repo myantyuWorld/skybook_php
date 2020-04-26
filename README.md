@@ -3,6 +3,7 @@
 PHPのバージョン  
 * 7.4.5
 ```
+CentosへPHP4系をインストールする　※ XAMPP使うなら関係なし
 $ sudo rpm --import https://rpms.remirepo.net/RPM-GPG-KEY-remi
 $ sudo yum install yum-utils https://rpms.remirepo.net/enterprise/remi-release-7.rpm
 $ sudo yum-config-manager --enable remi-php74
