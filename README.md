@@ -7,8 +7,9 @@ $ cd /var/www/html (ローカル開発環境：XAMPP{xampp/htdoc}でも可能な
 $ git clone https://github.com/myantyuWorld/skybook_php.git
 $ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
+$ cd twitteroauth　→　vim TwitterOAuto.php　⇒　oauthRequest ⇒　private　⇒　publicへ変更
 $ php -f twitter.php
-＞自分のタイムラインを表示する
+＞自分のタイムラインを表示できた
 
 ```
 
