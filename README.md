@@ -15,7 +15,7 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 2. [Twitter Developers に アプリケーションを登録](https://developer.twitter.com/en)
 3. アプリケーションの配置
 ```
-$ cd __XAMPP_DIR\htdoc
+$ cd {__XAMPP_DIR__}\htdoc
 $ git clone https://github.com/myantyuWorld/skybook_php.git
 $ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
