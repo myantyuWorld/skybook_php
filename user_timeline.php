@@ -11,13 +11,13 @@ $twObj = new TwitterOAuth($consumerKey,$consumerSecret,$accessToken,$accessToken
 $req = $twObj->OAuthRequest("https://api.twitter.com/1.1/statuses/user_timeline.json","GET",array("count"=>"10"));
 $tw_arr = json_decode($req);
 
-echo "test\r\n";
+echo "--- user_timeline.php --- \r\n";
  
 if (isset($tw_arr)) {
     foreach ($tw_arr as $key => $val) {
         echo $tw_arr[$key]->text;
         echo date('Y-m-d H:i:s', strtotime($tw_arr[$key]->created_at));
-        echo '<br>';
+        echo "\r\n";
     }
 } else {
     echo 'つぶやきはありません。';

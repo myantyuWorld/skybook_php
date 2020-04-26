@@ -1,5 +1,5 @@
 # 手順
-1. サーバーのPHPバージョンアップ
+1. XAMPPインストール ⇒　xampp-windows-x64-7.4.5-0-VC15-installer.exe
 PHPのバージョン
 * 7.4.5
 ```
@@ -15,14 +15,12 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 2. [Twitter Developers に アプリケーションを登録](https://developer.twitter.com/en)
 3. アプリケーションの配置
 ```
-$ cd /var/www/html (ローカル開発環境：XAMPP{xampp/htdoc}でも可能なことを確認
+$ cd __XAMPP_DIR\htdoc
 $ git clone https://github.com/myantyuWorld/skybook_php.git
 $ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
 $ cd twitteroauth　→　vim TwitterOAuto.php　⇒　oauthRequest ⇒　private　⇒　publicへ変更
-$ php -f twitter.php
+$ php -f user_timeline.php // 自分（うま）のタイムライン表示
 ＞自分のタイムラインを表示できました。
-
+$ php -f search_hashtag.php // #キャンプで検索
 ```
-
-
