@@ -3,7 +3,7 @@
 1. [Twitter Developers に アプリケーションを登録](https://developer.twitter.com/en)
 1. アプリケーションの配置
 ```
-$ cd /var/www/html
+$ cd /var/www/html (ローカル開発環境：XAMPP{xampp/htdoc}でも可能なことを確認
 $ git clone https://github.com/myantyuWorld/skybook_php.git
 $ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
