@@ -5,8 +5,11 @@
 ```
 $ cd /var/www/html
 $ git clone https://github.com/myantyuWorld/skybook_php.git
-$ cd skybook_git
+$ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
+$ php -f twitter.php
+＞自分のタイムラインを表示する
+
 ```
 
 # PHPのバージョン
