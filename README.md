@@ -20,7 +20,7 @@ $ cd {__XAMPP_DIR__}\htdoc
 $ git clone https://github.com/myantyuWorld/skybook_php.git
 $ cd skybook_php
 $ git clone https://github.com/abraham/twitteroauth.git
-$ cd twitteroauth　→　vim TwitterOAuto.php　⇒　oauthRequest ⇒　private　⇒　publicへ変更
+$ cd twitteroauth　→　vim TwitterOAuth.php　⇒　oauthRequest ⇒　private　⇒　publicへ変更
 $ php -f user_timeline.php // 自分（うま）のタイムライン表示
 ＞自分のタイムラインを表示できました。
 $ php -f search_hashtag.php // #キャンプで検索
