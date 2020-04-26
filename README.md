@@ -1,6 +1,6 @@
 # 手順
-1. XAMPPインストール ⇒　xampp-windows-x64-7.4.5-0-VC15-installer.exe
-PHPのバージョン
+1. XAMPPインストール ⇒　xampp-windows-x64-7.4.5-0-VC15-installer.exe  
+PHPのバージョン  
 * 7.4.5
 ```
 $ sudo rpm --import https://rpms.remirepo.net/RPM-GPG-KEY-remi
